@@ -1,3 +1,9 @@
+create warehouse healthcare_wh;
+use warehouse healthcare_wh;
+create database healthcare_db;
+use database healthcare_db;
+create schema healthcare_schema;
+use schema healthcare_schema;
 create stage healthcare_stage;
 
 put file://Address/Address.csv @healthcare_stage;
